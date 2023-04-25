@@ -1,4 +1,6 @@
 # KnightCodeSkeleton
 
-This project encapsulates the directory structure required for the final project in CS322. Additionally, it contains an ant build.xml file you can use to buid/compile/clean your project if you wish. Refer to the build.xml file for the build/clean targets.
-
+This project is for CS322 and contains a grammar file, lexer, parser, tokens, and methods to execute the Knight Code programming language. The main program 
+is bodyListener that listens as it walks through the parse tree to save variables and all their information in a hashmap that can then be used to 
+mainpulate them and perform basic operations. This compiler allows for setting variables as strings and integers, adding integers, subtracting integers, 
+multiplying integers, divinding integers, comparing integers, along with reading user input and printing these values.
