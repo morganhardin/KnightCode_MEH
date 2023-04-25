@@ -1,0 +1,9 @@
+PROGRAM printInteger
+
+DECLARE 
+    INTEGER x
+
+BEGIN
+    SET x:= 100
+    PRINT x
+END

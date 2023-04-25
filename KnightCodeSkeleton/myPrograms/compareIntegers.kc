@@ -1,0 +1,13 @@
+PROGRAM compareIntegers
+
+DECLARE 
+    INTEGER x
+    INTEGER y
+    INTEGER z
+
+BEGIN   
+    SET x := 88
+    SET y := 10
+    IF x > y THEN PRINT x
+    ENDIF
+END

@@ -1,0 +1,10 @@
+PROGRAM readInteger
+
+DECLARE INTEGER x
+
+BEGIN
+    PRINT "Enter an Integer: "
+    READ x
+    PRINT "Number Entered: "
+    PRINT x
+END

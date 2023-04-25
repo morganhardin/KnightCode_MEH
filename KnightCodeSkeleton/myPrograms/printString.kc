@@ -1,0 +1,9 @@
+PROGRAM printString
+
+DECLARE 
+    STRING x
+
+BEGIN
+    SET x:= "Hello World"
+    PRINT x
+END

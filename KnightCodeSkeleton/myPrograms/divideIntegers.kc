@@ -1,0 +1,13 @@
+PROGRAM divideIntegers
+
+DECLARE
+    INTEGER x
+    INTEGER y
+    INTEGER z
+
+BEGIN
+    SET x := 72
+    SET y := 9
+    SET z := x / y
+    PRINT z
+END

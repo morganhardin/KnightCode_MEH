@@ -1,0 +1,11 @@
+PROGRAM readString
+
+DECLARE
+    STRING name
+
+BEGIN
+    PRINT "Enter your Name: "
+    READ name
+    PRINT "Name Entered: "
+    PRINT name
+END

@@ -1,0 +1,13 @@
+PROGRAM subtractIntegers
+
+DECLARE
+    INTEGER x
+    INTEGER y
+    INTEGER z
+
+BEGIN   
+    SET x := 37
+    SET y := 19
+    SET z := x - y
+    PRINT z
+END

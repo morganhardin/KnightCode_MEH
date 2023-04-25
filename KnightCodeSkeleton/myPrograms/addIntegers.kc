@@ -1,0 +1,13 @@
+PROGRAM addIntegers
+
+DECLARE
+    INTEGER x
+    INTEGER y
+    INTEGER z
+
+BEGIN
+    SET x := 6
+    SET y := 2
+    SET z := x + y
+    PRINT z
+END
