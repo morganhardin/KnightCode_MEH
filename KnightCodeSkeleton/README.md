@@ -9,9 +9,9 @@ To use the compiler, you can compile the grammar file using:
 javac compiler/kcc.java. 
 
 In order to compile a program and create the class file, you can use:
-java compiler/kcc myPrograms/printInteger.kc output/printInteger
+java compiler/kcc myPrograms/printInteger.kc output/printInteger.
 This should have output that goes through the overridden classes in the bodyListener class and shows what is happening at each step in the compilation.
 
 In order to run the class file previously produced, you can use:
-java output/printInteger
+java output/printInteger.
 This will execute your program.
